@@ -1,0 +1,60 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	 font-family: Poppins !important;
+}
+
+th{
+text-transform: uppercase !important;
+}
+
+
+
+
+tbody{
+	    background: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.0rem rgba(0,123,255,.25);
+}
+
+/*===========================================*/
+.btn-primary {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #0062cc;
+}
+
+.modal.animate {opacity:0}
+.modal.animate.show {opacity:1}
+.modal.animate .modal-dialog{-webkit-transform:translate(0,0);-ms-transform: translate(0,0);transform:translate(0,0)}
+.modal.animate .a-fadeRight{-webkit-animation:fadeOutRight .5s;animation:fadeOutRight .5s}
+    .modal.animate.show .a-fadeRight{-webkit-animation:fadeInRight .5s;animation:fadeInRight .5s}
+
+/*.modal.animate1 {opacity:0}
+.modal.animate1.show {opacity:1}
+.modal.animate1 .modal-dialog{-webkit-transform:translate(0,0);-ms-transform: translate(0,0);transform:translate(0,0)}*/    
+    .modal.animate1 .a-fadeLeft{-webkit-animation:fadeOutLeft .5s;animation:fadeOutLeft .5s}
+    .modal.animate1.show .a-fadeLeft{-webkit-animation:fadeInLeft .5s;animation:fadeInLeft .5s}
+
+    .modal.animate2 .a-zoom{-webkit-animation:zoomOut .5s;animation:zoomOut .5s}
+    .modal.animate2.show .a-zoom{-webkit-animation:zoomIn .5s;animation:zoomIn .5s}
+
+    .modal.animate3 .a-flipX{-webkit-animation:flipOutX .5s;animation:flipOutX .5s}
+    .modal.animate3.show .a-flipX{-webkit-animation:flipInX .5s;animation:flipInX .5s}
+
+    .modal-dialog {
+    max-width: 887px;
+}
+.model-profile {
+   padding: 2px 12px;
+    width: 100%;
+    background-image: url(../images/profile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
